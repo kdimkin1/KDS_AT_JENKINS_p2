@@ -8,10 +8,9 @@
 See details:  
 ```bash
 Jenkins:
-https://jenkins.autotests.cloud/job/011_KDS_homework10
+1.1 https://jenkins.autotests.cloud/job/011_KDS_homework11/
 
-AllureReport:
-https://jenkins.autotests.cloud/job/011_KDS_homework10/6/allure/#suites/17fbc4f4dfcb5bc5d9e5c4546ac61a1b/42108d8bd36e0d64/
-
-
+2.1. https://jenkins.autotests.cloud/job/011_KDS_homework11_2.1/ 
+ (for https://github.com/Docent321/qa-guru-10-Jenkins )
+2.2. https://github.com/kdimkin1/KDS_AT_JENKINS.git
 
