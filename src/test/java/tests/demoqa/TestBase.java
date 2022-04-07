@@ -24,6 +24,7 @@ public class TestBase {
         String login = System.getProperty("login");
         String password = System.getProperty("password");
         //        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+        System.out.println("https://" + login + ":" + password + "@" + System.getProperty("remoteBrowser"));
         Configuration.remote = "https://" + login + ":" + password + "@" + System.getProperty("remoteBrowser");
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
