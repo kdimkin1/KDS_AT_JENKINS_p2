@@ -1,0 +1,26 @@
+https://github.com/qa-guru/allure-notifications/blob/master/README.md
+
+--Описание:
+https://gist.github.com/dideler/85de4d64f66c1966788c1b2304b9caf1
+
+1) создаем бота в Telegram
+@BotFather
+имя: t.me/kds_at_notify_bot
+token: 5372884694:AAHbUG6V57JosTOcnZ3R3e64XirBH0jI2EE
+
+2) создаем чат, добавляем бота, даем ему админские права
+3) используем:
+https://api.telegram.org/bot5372884694:AAHbUG6V57JosTOcnZ3R3e64XirBH0jI2EE/getUpdates
+
+для просмотра активностей с ботом (id чата, сообщения):
+chat: id: -772752634,
+
+4) для ручного запуска в терминале (в IDEA стоит выбрать терминал Git Bash)
+// command in many lines
+curl -X POST \
+     -H 'Content-Type: application/json' \
+     -d '{"chat_id": "-772752634", "text": "This is a test from curl", "disable_notification": true}' \
+     https://api.telegram.org/bot5372884694:AAHbUG6V57JosTOcnZ3R3e64XirBH0jI2EE/sendMessage
+
+// command in one line
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-772752634", "text": "This is a test from curl", "disable_notification": true}' https://api.telegram.org/bot5372884694:AAHbUG6V57JosTOcnZ3R3e64XirBH0jI2EE/sendMessage
