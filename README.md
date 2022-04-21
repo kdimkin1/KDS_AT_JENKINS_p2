@@ -14,3 +14,6 @@ Jenkins:
  (for https://github.com/Docent321/qa-guru-10-Jenkins )
 2.2. https://github.com/kdimkin1/KDS_AT_JENKINS.git
 
+Telegram:
+https://jenkins.autotests.cloud/job/011_KDS_homework12_telegram/
+![](src/test/resources/img/FAM_CHAT.jpg)
