@@ -1,6 +1,7 @@
 package tests.demoqa;
 
 import io.qameta.allure.Description;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import demoqa.RegistrationPage;
@@ -35,6 +36,7 @@ public class AutomationPracticeFormFillTestsWithPOAndVars extends TestBase {
 
 
     @Test
+    @Disabled
     @Description("AutomationPracticeFormFillTests")
     @DisplayName("AutomationPracticeFormFillTests(demoqa.com).")
     void apfSuccessFillTest() {
