@@ -16,4 +16,4 @@ Jenkins:
 
 Telegram:
 https://jenkins.autotests.cloud/job/011_KDS_homework12_telegram/
-![](src/test/resources/img/FAM_CHAT.jpg)
+![](test/resources/img/FAM_CHAT.jpg)
